@@ -18,6 +18,6 @@ stages:
 - template: ./pipeline_templates/main_template.yaml
   parameters:
     serviceConnectionName: azuredevops_service_connection
-    awsRegion: eu-west-1
-    awsEKSClusterName: sandbox
-    projectName: webapp
+    awsRegion: us-east-1
+    awsEKSClusterName: Kesse-project-cluster
+    projectName: kesse_pipeline
