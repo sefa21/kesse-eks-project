@@ -15,7 +15,7 @@ pool:
 
 stages:
 # Refering the pipeline template, input parameter that are not specified will be added with defaults
-- template: ./pipeline_templates/main_template.yaml
+- template: ./kesse-eks-project/main_template.yaml
   parameters:
     serviceConnectionName: azuredevops_service_connection
     awsRegion: us-east-1
